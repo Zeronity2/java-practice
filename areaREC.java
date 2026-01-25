@@ -5,12 +5,14 @@ public class areaREC{
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter length: ");
-        int l = scanner.nextInt();
+        double l = scanner.nextDouble();
 
         System.out.print("Enter breadth: ");
-        int b = scanner.nextInt();
+        double b = scanner.nextDouble();
 
-        System.out.println("Area of rectangle: "+(l*b));
+        double area = (l*b);
+
+        System.out.println("Area of rectangle: "+area);
         scanner.close();
     }
 }
