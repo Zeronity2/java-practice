@@ -11,5 +11,6 @@ public class areaREC{
         int b = scanner.nextInt();
 
         System.out.println("Area of rectangle: "+(l*b));
+        scanner.close();
     }
 }
