@@ -22,5 +22,5 @@ public class Arithmetic{
     // order of operations [P-E-M-D-A-S]
 
        System.out.println(x);
-    }
+    } 
 }

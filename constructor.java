@@ -26,6 +26,6 @@ class TestStudent{
         Student Khushi = new Student();
         Khushi.getValue(26,"Khushi",85);
         Khushi.grace();
-        Khushi.ShowValue();
+        Khushi.ShowValue(); 
     }
-}
+} 

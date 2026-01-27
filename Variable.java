@@ -34,4 +34,4 @@ public class Variable{
 
         System.out.println("hello my name is "+name);//string
     }
-}
+}     
