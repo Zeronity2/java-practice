@@ -23,4 +23,4 @@ public class Arithmetic{
 
        System.out.println(x);
     } 
-}
+} 
