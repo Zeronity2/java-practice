@@ -20,4 +20,4 @@ public class hypotenuse{
 
     sc.close();
     }
-}
+}  
