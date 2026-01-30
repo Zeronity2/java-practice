@@ -20,5 +20,6 @@ public class printf{
         System.out.printf("%.3f\n", price3);
 
         
-    }
+    } 
 }
+ 
