@@ -1,10 +1,14 @@
+import java.util.java;
 
 public class enhSwitch{
     public static void main(String[] args){
 
         // enhanced switch = A replacement to many elseif statements
-        
-        String day = "Sunday";
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the day: ");
+        String day = sc.nextLine();
+
 
         switch(day){
             case "Monday" -> System.out.println("It is a weekday(:"); 
