@@ -4,10 +4,10 @@ public class enhSwitch{
     public static void main(String[] args){
 
         // enhanced switch = A replacement to many elseif statements
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the day: ");
-        String day = sc.nextLine();
+        String day = scanner.nextLine();
 
 
         switch(day){
