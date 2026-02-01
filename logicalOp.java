@@ -29,5 +29,7 @@ public class logicalOp{
         System.out.println("It is rainy outside");
        }
 
+       sc.close();
+
     }
 }
