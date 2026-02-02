@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
 public class forloop{
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException {
         
         // for loop = execute some code a CERTAIN amount of time
+
     Scanner sc = new Scanner(System.in);
 
     System.out.print("Enter how many times you want to loop: ");
@@ -11,6 +12,7 @@ public class forloop{
 
     for(int i =0 ; i<=max; i++){
         System.out.println(i);
+         Thread.sleep(1000);
     }
        sc.close();
     }
