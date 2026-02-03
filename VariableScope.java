@@ -17,7 +17,7 @@ public class VariableScope{
     }
     static void dosomething(){
 
-        int x = 2;//Local
+        int x = 4;//Local
 
         System.out.println(x);
     }
