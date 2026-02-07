@@ -1,5 +1,5 @@
 
-public class Varargs{
+public class Varargs{ 
     public static void main(String[] args){
 
         //varargs = allow a method to accept a varing # of arguments
