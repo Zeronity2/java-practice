@@ -22,4 +22,4 @@ public class palidrome{
             System.out.println("Not Palidrome");
         }
     }
-}
+}  
