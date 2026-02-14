@@ -12,6 +12,7 @@ class Pythagorean{
         (b*b + c*c == a*a)||
         (c*c + a*a == b*b);
     }
+    
 }
 class TestPythagorean{
     public static void main(String[] args){
@@ -23,6 +24,7 @@ class TestPythagorean{
         obj1.b = sc.nextInt();
         System.out.print("Enter third number: ");
         obj1.c = sc.nextInt();
+
         if(obj1.isPythagorean()){
             System.out.println("It is pythagorean!");
         }
