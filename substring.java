@@ -19,7 +19,7 @@ public class substring{
             System.out.println(domain);
         }
         else{
-             System.out.println("Emsails must contain @");
+             System.out.println("Emails must contain @");
         }
  
 
