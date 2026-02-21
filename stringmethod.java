@@ -14,19 +14,19 @@ public class stringmethod{
         // name = name.trim();
         // name = name.replace("o", "a");
 
-        // if(name.isEmpty()){
-        //         System.out.println("Your name is empty");
-        // }
-        // else{
-        //         System.out.println("Hello "+name);
-        // }
+        if(name.isEmpty()){
+                System.out.println("Your name is empty");
+        }
+        else{
+                System.out.println("Hello "+name);
+        }
 
-        // if(name.contains(" ")){
-        //         System.out.println("Your name contains a space");
-        // }
-        // else{
-        //         System.out.println("Your name DOESN'T contain any spaces");
-        // }
+        if(name.contains(" ")){
+                System.out.println("Your name contains a space");
+        }
+        else{
+                System.out.println("Your name DOESN'T contain any spaces");
+        }
 
 
          if(name.equals("Password")){  //to ignore case sensitivity use .equalsIgnoreCase
