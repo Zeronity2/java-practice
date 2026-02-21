@@ -14,7 +14,6 @@ public class substring{
         if(email.contains("@")){
         String username = email.substring(0, email.indexOf("@"));
         String domain = email.substring(email.indexOf("@") + 1);
-
             System.out.println(username);
             System.out.println(domain);
         }
