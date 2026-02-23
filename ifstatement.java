@@ -7,7 +7,7 @@ public class ifstatement{
     
     int age;
     // String name;
-    // boolean isStudent;
+    boolean isStudent;
 
     System.out.print("Enter your age: ");
     age = scanner.nextInt();
@@ -45,12 +45,12 @@ public class ifstatement{
     }
 
 // // GROUP 3
-//     if(isStudent){
-//         System.out.println("You are a student!");
-//     }
-//     else{
-//         System.out.println("You are not a student!");
-//     }
+    if(isStudent){
+        System.out.println("You are a student!");
+    }
+    else{
+        System.out.println("You are not a student!");
+    }
 
     scanner.close();
 
