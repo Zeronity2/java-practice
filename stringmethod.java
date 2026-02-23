@@ -36,7 +36,7 @@ public class stringmethod{
                 System.out.println("Hello "+name);
         }
 
-        // System.out.println(name);
+        System.out.println(name);
         
     }
 }
