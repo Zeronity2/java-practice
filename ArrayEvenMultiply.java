@@ -1,8 +1,10 @@
 import java.util.Scanner;
+
 public class ArrayEvenMultiply{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-
+        
+        System.out.print("Enter the number: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
         int product = 1;
