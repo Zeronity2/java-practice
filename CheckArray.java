@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class CheckArray{
     public static void main(String[] args){
      Scanner sc = new Scanner(System.in);
-
+     
+     
      int[] a2 = new int[5];
      for(int i=0; i<a2.length; i++){
         a2[i]=sc.nextInt();
