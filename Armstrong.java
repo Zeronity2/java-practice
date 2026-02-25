@@ -24,9 +24,9 @@ public class Armstrong{
         }
 
         if(sum == original)
-            System.out.println("Armstrong number");
+            System.out.println("Armstrong number!");
         else
-            System.out.println("Not Armstrong number");
+            System.out.println("Not Armstrong number!");
 
     }
 }
