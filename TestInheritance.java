@@ -3,7 +3,10 @@ import java.util.Scanner;
 class Area{
     Scanner sc = new Scanner(System.in);
     int l, b;
-    Area(){}
+    Area(){
+        l=0;
+        b=0;
+    }
     Area(int l, int b){
         this.l = l;
         this.b = b;
@@ -22,7 +25,12 @@ class Area{
 class Volume extends Area{
     Scanner sc1 = new Scanner(System.in);
     int p , q, r;
-    Volume(){}
+    Volume(){
+        super();
+        p=0;
+        q=0;
+        r=0;
+    }
     Volume(int p, int q, int r){
         super(p,q);
         this.p =p;
