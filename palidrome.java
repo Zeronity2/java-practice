@@ -4,7 +4,7 @@ public class palidrome{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter the number: ");
         int num = sc.nextInt();
 
         int n = num;
@@ -16,10 +16,10 @@ public class palidrome{
             n = n / 10;
         }
         if(num == rev){
-            System.out.println("Palidrome");
+            System.out.println("Palidrome!");
         }
         else{
-            System.out.println("Not Palidrome");
+            System.out.println("Not Palidrome!");
         }
     }
 }  
