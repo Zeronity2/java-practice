@@ -39,11 +39,11 @@ class Volume extends Area{
     }
     void getData(){
         super.getData();
-        System.out.print("Enter length: ");
+        System.out.print("Enter the length: ");
         p = sc1.nextInt();  
-        System.out.print("Enter breadth: ");
+        System.out.print("Enter the breadth: ");
         q = sc1.nextInt();
-        System.out.print("Enter height: ");
+        System.out.print("Enter the height: ");
         r = sc1.nextInt();
     }
     void ComputeVolume(){
