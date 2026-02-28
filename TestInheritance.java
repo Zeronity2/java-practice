@@ -12,9 +12,9 @@ class Area{
         this.b = b;
     }
     void getData(){
-        System.out.print("Enter length: ");
+        System.out.print("Enter the length: ");
         l = sc.nextInt();
-        System.out.print("Enter breadth: ");
+        System.out.print("Enter the breadth: ");
         b = sc.nextInt();
     }
     void ComputeArea(){
@@ -58,4 +58,4 @@ class TestInheritance{
         obj.ComputeVolume();
         obj.ComputeArea();
     }
-}
+}   
