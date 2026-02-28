@@ -10,6 +10,6 @@ public class randomnum{
          
         // double number = random.nextBoolean();
 
-        System.out.println(number);
+        System.out.println("The number is: "+number);
     }
 }
