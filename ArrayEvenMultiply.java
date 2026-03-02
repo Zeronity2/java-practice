@@ -15,6 +15,6 @@ public class ArrayEvenMultiply{
         for(int i=1; i<n; i=i+2){
             product = product * arr[i];
         }
-        System.out.println(product);
+        System.out.println("Product of evrn no is: "+product);
     }
 }
