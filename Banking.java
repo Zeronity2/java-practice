@@ -15,7 +15,7 @@ public class Banking{
 
         while(isRunning){
 
-         System.out.println("*********************");
+         System.out.println("**********************");
          System.out.println("BANKING PROGRAM");
          System.out.println("**********************");
          System.out.println("1. Show Balance");
@@ -37,9 +37,9 @@ public class Banking{
 
         }
 
-        System.out.println("*******************");
+        System.out.println("********************");
         System.out.println("THANKYOU , HAVE A NICE DAY!");
-        System.out.println("*******************");
+        System.out.println("********************");
 
 
         sc.close();
