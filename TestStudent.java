@@ -2,6 +2,7 @@ class Student{
     int roll;
     String name;
     float marks;
+
     void getValue(int r, String n, float m){
         roll = r;
         name = n;
@@ -24,8 +25,17 @@ class Student{
 class TestStudent{
     public static void main(String args[]){
         Student Khushi = new Student();
+        Student patel = new Student();
         Khushi.getValue(26,"Khushi",85);
+        patel.getValue(26,"Khushi",85);
         Khushi.grace();
         Khushi.ShowValue(); 
+        System.out.println(Khushi);
+        System.out.println(Khushi.hashCode());
+        System.out.println(Khushi.equals(patel));
+        String s1 = "helloo";
+        String s2 = "helloo";
+        System.out.println(s1.equals(s2));
+
     }
 } 
