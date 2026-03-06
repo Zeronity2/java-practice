@@ -59,6 +59,5 @@ class TestMyFrame{
     obj.setSize(400, 500);
     obj.setVisible(true); 
     
-
     }
 } 
