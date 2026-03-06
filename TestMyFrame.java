@@ -22,6 +22,9 @@ class MyFrame extends JFrame implements ActionListener{
       b1 = new Button("Add");
       b2 = new Button("Clear");
 
+      b1.addActionListener(this);
+      b2.addActionListener(this);
+
       Container con = getContentPane();
       con.setLayout(new FlowLayout());
       con.add(l1); //adding components on the frame
@@ -39,7 +42,7 @@ class MyFrame extends JFrame implements ActionListener{
       i1 = Integer.parseInt(t1.getText());
       i2 = Integer.parseInt(t2.getText());
       i3 = i1+i2;
-      t3.setText(""+t3);//(""+t3)
+      t3.setText(""+i3);//(""+t3)
      }
      if(ae.getSource() == b2){
       t1.setText("");
@@ -55,5 +58,7 @@ class TestMyFrame{
     obj.setDefaultCloseOperation(3);
     obj.setSize(400, 500);
     obj.setVisible(true); 
+    
+
     }
 } 
