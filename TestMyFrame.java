@@ -70,6 +70,13 @@ class MyFrame extends JFrame implements ActionListener{
         i3 = i1*i2;
         t3.setText(""+i3);
      }
+     if(ae.getSource() == b5){
+        i1 = Integer.parseInt(t1.getText());
+        i2 = Integer.parseInt(t2.getText());
+        i3 = i1/i2;
+        t3.setText(""+i3);
+     }
+
     }
 
 }
