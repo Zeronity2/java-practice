@@ -5,7 +5,7 @@ import javax.swing.*;
 class MyFrame extends JFrame implements ActionListener{
     TextField t1, t2, t3;
     Label l1, l2, l3;
-    Button b1, b2, b3;
+    Button b1, b2, b3,b4,b5;
     int i1, i2, i3;
     String s1, s2, s3;
 
@@ -22,10 +22,14 @@ class MyFrame extends JFrame implements ActionListener{
       b1 = new Button("Add");
       b2 = new Button("Clear");
       b3 = new Button("Subtract");
+      b4 = new Button("Multiply");
+      b5 = new Button("Devide");
 
       b1.addActionListener(this);
       b2.addActionListener(this);
       b3.addActionListener(this);
+      b4.addActionListener(this);
+      b5.addActionListener(this);
 
       Container con = getContentPane();
       con.setLayout(new FlowLayout());
@@ -37,6 +41,8 @@ class MyFrame extends JFrame implements ActionListener{
       con.add(t3);
       con.add(b1);
       con.add(b3);
+      con.add(b4);
+      con.add(b5);
       con.add(b2);
     }
 
@@ -56,6 +62,12 @@ class MyFrame extends JFrame implements ActionListener{
         i1 = Integer.parseInt(t1.getText());
         i2 = Integer.parseInt(t2.getText());
         i3 = i1-i2;
+        t3.setText(""+i3);
+     }
+      if(ae.getSource() == b4){
+        i1 = Integer.parseInt(t1.getText());
+        i2 = Integer.parseInt(t2.getText());
+        i3 = i1*i2;
         t3.setText(""+i3);
      }
     }
