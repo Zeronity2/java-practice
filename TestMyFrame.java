@@ -36,7 +36,7 @@ class MyFrame extends JFrame implements ActionListener{
       con.add(l1); //adding components on the frame
       con.add(t1);
       con.add(l2);
-      con.add(t2);
+      con.add(t2);    
       con.add(l3);
       con.add(t3);
       con.add(b1);
