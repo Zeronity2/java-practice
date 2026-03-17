@@ -5,6 +5,7 @@ public class Varargs{
         //varargs = allow a method to accept a varing # of arguments
         //          makes methods more flexible, no neeed for overload methods
        // java will pack the arguments into an array
+       //and used in different programmming languages
        
     System.out.println(add(1,2,3,4,5,6));
 
