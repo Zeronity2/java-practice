@@ -17,4 +17,5 @@ public class factorial{
 
         sc.close();
     }
-}
+}  
+
