@@ -16,6 +16,7 @@ public class TestAnony{
                 return (PI*a*a);
             }
         };
+        
         // Area r = (a,b)->(a*b);
         // Area c = (a,b)->(Area.PI*a*a);   //lembda syntax
 
