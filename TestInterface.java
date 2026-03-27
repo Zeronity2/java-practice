@@ -24,6 +24,6 @@ class TestInterface{
         Square obj3 = new Square();
         System.out.println("Area of Rectangle: "+obj.compute(2,3));
         System.out.println("Area of Circle: "+obj2.compute(2,3));
-        System.out.println
+        System.out.println("Area of square: "+obj3.compute(2,0));
     }
 }
