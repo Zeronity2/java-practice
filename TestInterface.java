@@ -11,6 +11,7 @@ class Circle implements Area{
    public double compute(double a, double b){
         return (PI * a * a);
     }
+class Square
 }
 class TestInterface{
     public static void main(String[] args){
