@@ -11,4 +11,5 @@ class TestLembda{
         System.out.println("The area of rectangle: "+rec.compute(3,4));
         System.out.println("The ares of circle: "+circle.compute(1,0));
     }
+    
 }
