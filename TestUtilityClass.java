@@ -2,10 +2,10 @@ import java.time.*;
 class TestUtilityClass{
     public static void main(String[] args){
         LocalDate date = LocalDate.now();
-        System.out.println(date);
+        System.out.println("Current Date: "date);
 
         LocalTime time = LocalTime.now();
-        System.out.println(time);
+        System.out.println("Current Time: "time);
 
         LocalDateTime both = LocalDateTime.now();
         System.out.println(both);
