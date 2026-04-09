@@ -17,6 +17,5 @@ class TestCusExcept{
         }catch(ArrayIndexOutOfBoundsException e){
             System.out.println("Error: Invalid index. Please select a valid from the list");
         }
-        sc.close();
     }
 }
