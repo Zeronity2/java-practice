@@ -7,7 +7,7 @@ class TestArrayListWithoutGenerics{
         obj.add(1223);
         obj.add(true);
 
-        String name = (String)obj.get(0);
+        String name = (String) obj.get(0);
         System.out.println("my name is: "+name);
 
         System.out.print("List of Array: ");
